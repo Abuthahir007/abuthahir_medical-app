@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+header {
+  background-color: lightgray;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+.wave_lab_image_section {
+  position: relative;
+}
+.wave-background-img {
+  height: 550px;
+  position: absolute;
+
+  z-index: -1;
+}
+.wave_img {
+  opacity: 0.3;
+}
+.alliance_img {
+  max-width: 100px;
+}
+.alliance_lab_img_one {
+  object-fit: cover;
+  max-width: 250px;
+  height: 400px;
+  margin: 0 auto;
+  border-radius: 80px 20px 80px 20px;
+}
+.alliance_lab_img_two {
+  max-width: 250px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.alliance_lab_img_three {
+  max-width: 250px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.lab-test-cirlce {
+  max-width: 70px;
+  height: 70px;
+  margin: 0 auto;
+  border: 2px solid gray;
+  border-radius: 50px;
+  margin-bottom: 20px;
+  border: solid navy;
+}
+.lab-Test-Card {
+  max-width: 300px;
+}
+.lab-Partners-Section {
+  /* background-color: hotpink; */
+  position: relative;
+}
+.patners_image {
+  transform: rotate(180deg);
+  position: absolute;
+  object-fit: cover;
+  /* height: 400px; */
+}
+.partners_image_main {
+  max-width: 290px;
+  border-radius: 30px;
+}
+.partners_image_one {
+  max-width: 280px;
+  border-radius: 20px;
+  /* margin-bottom: 35px; */
+}
+.partners_image_two {
+  max-width: 280px;
+  border-radius: 20px;
+  /* margin-left: 50px; */
+}
+.corprate_Customer_pragraph {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+.card {
+  margin: 10px 0 10px 0;
+  background-color: blue;
+}
+.customer_wave {
+  height: 100px;
+  object-fit: cover;
+  border-radius: 80px 5px 80px 0;
+}
+.patient_image {
+  max-width: 75px;
+  height: 75px;
+  padding: 12px;
+  margin: 0 auto;
+  border: 2px dotted black;
+  border-radius: 50%;
+}
+.covid_process_pragraph {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.contact_Map_Section {
+  position: relative;
+  z-index: 1;
+  background-color: rgb(58, 58, 102);
+}
+.contact_map {
+  height: 600px;
+  z-index: -1;
+
+  position: absolute;
+}
+.form-Content-box {
+  max-width: 400px;
+  background-color: white;
+  margin: 0 auto;
+  border-radius: 30px 0 30px 0;
+}
+.contact_image {
+  object-position: 0 6%;
+  height: 650px;
+  object-fit: cover;
+
+  border-radius: 150px 150px 20px 20px;
+}
+
+.footer_section {
+  background-color: rgb(58, 58, 102);
+}
+
+.footer_icons {
+  padding: 5px 10px 5px 10px;
+  border-radius: 50px;
+  border: 2px solid white;
+}
+@media (max-width: 576px) {
+  */ #nav_section {
+    padding: 0 20px;
+  }
+  .phone_twitter_content {
+    display: none;
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .alliance_lab_img_one {
+    object-fit: cover;
+    width: 250px;
+    height: 200px;
+    border-radius: 30px 20px 30px 20px;
+  }
+  .alliance_lab_img_two {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    border: 2px solid black;
+  }
+  .alliance_lab_img_three {
+    width: 200px;
+    height: 200px;
+  }
+  .contact_image_main {
+    display: flex;
+    justify-content: center;
+  }
+  .form-Content-box {
+    width: 300px;
+    height: 470px;
+    background-color: white;
+    border-radius: 30px 0 30px 0;
+  }
+  .contact_image {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+
+    border-radius: 20px;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .alliance_lab_img_one {
+    object-fit: cover;
+    /* width: 350px; */
+    height: 400px;
+    border-radius: 80px 20px 80px 20px;
+  }
+  .alliance_lab_img_two {
+    width: 150px;
+    height: 200px;
+    border-radius: 20px 20px 20px 20px;
+  }
+  .alliance_lab_img_three {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px 20px 20px 20px;
+  }
+  .contact_image {
+    margin: 30px 0 0 30px;
+    width: 350px;
+    height: 500px;
+    object-fit: cover;
+
+    border-radius: 20px;
+  }
+}
